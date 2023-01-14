@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+
+ <style>
+.card {
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.enhance {
+ color: blueviolet;
+ background-color: aqua;
+ font-style: italic;
+
+
+}
+ </style>
+
+</head>
+<body>
+
+ <div id="main-header" class="card">
+  <h1> My webside</h1>
+  <p> A site about me</p>
+ </div>
+ <ul id="main-nav">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">contact</a></li>
+ </ul>
+
+ <div id="about" class="card">
+ <h3>About</h3>
+ <p> Lorem ipsum dolor sit amet consectetur 
+  adipisicing elit.<div class="enhance"> Nesciunt atque nihil doloremque
+   adipisci dolorum! Ducimus cum </div>
+   repellat alias corrupti sint.</p>
+  </div>
+   <div id="contact" class="card">
+    <h3>Contact  Me</h3>
+    <ul>
+     <li> Address: at post makhamalabad nashik</li>
+     <li> phone:+91 7219055008</li>
+     <li>Email: kumarkhambait20@gmail.com</li>
+    </ul>
+   </div>
+
+   <div id="footer">
+    <p> Copyright 2018 </p>
+   </div>
+
+ <!-- <h1 id="about"></h1> -->
+<!-- External link
+<p>
+ <a href="https://google.com"> click for Google</a>
+</p>
+<p>
+ <a href="https://google.com" target="_blank"> click for google</a>
+</p>
+
+internal link -->
+<!-- <p>
+ <a href="/hemant.html">Hemant</a>
+</p> -->
+
+<!-- local image -->
+<!-- <img src="/images/j1.jpg" alt="My Image" width="200"> -->
+
+<!-- remote image -->
+<!-- <img src="/strawberries.jpg" title="A banana image" alt="Banana is good in taste!"/> -->
+<form action="prosess.php">
+
+ <!-- text -->
+ <div>
+  <lable for="name">Name</lable><br>
+  <input type="text" id="name" name="name">
+ </div>
+</form>
+<div>
+
+ <!-- email -->
+ <label for="email">Email</label><br>
+ <input type="email" name="email" id="email"
+ placeholder="Enter an email">
+</div>
+
+<!-- message -->
+<div>
+ <lable for="message"> Message</lable><br>
+ <textarea name="message" id="message" cols="5"></textarea>
+</div>
+
+<div>
+  <lable for="message"> Message</lable><br>
+  <select name="sex" id="sex">
+   <option value="male" selected>Male</option>
+   <option value="female">Female</option>
+   <option value="other">Other</option>
+  </select>
+ </div>
+ <div>
+  <!-- age -->
+ <label for="age">Age</label><br>
+ <input type="number" name="age" id="age">
+ </div>
+
+ <div>
+  <lable for="birthdate">Birthdate</lable><br>
+  <input type="date" name="birthdate" id="birthdate">
+ </div>
+
+<div>
+<lable for="membership">Membership</lable>
+<input type="radio" name="membership" value="simple" id="membership" > Simple
+<input type="radio" name="membership" value="standerd" id="membership checked" > Standerd
+<input type="radio" name="membership" value="super" id="membership" > Super
+</div>
+
+<div>
+ <lable for="membership">i like...</lable>
+ <input type="checkbox" name="membership" value="Bike" id="membership" > Bike
+ <input type="checkbox" name="membership" value="car" id="membership checked" >  Car
+ <input type="checkbox" name="membership" value="boat" id="membership" > Boat
+ </div>
+
+<input type="subnit" value="Submit">
+<!-- using button tag -->
+
+<button type="reset" value="Reset"></button>
+
+
+<!-- non breaking space -->
+<p> hello hemant this ids computer to give you instruction &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; are you follow this instruction</p>
+
+</form>
+</body>
+</html>
